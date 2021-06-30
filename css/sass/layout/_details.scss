@@ -1,0 +1,37 @@
+.details {
+    position: relative;
+    padding: 5rem 0;
+    background: black;
+
+    .left-img,
+    .right-img {
+        height: 50%;
+        position: absolute;
+    }
+
+    .left-img {
+        top: 0;
+
+        @include medium {
+            height: 100%;
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+    .right-img {
+        bottom: 0;
+
+        @include medium {
+            height: 100%;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    h1,
+    p,
+    button {
+        transform: scale(.8);
+    }
+}

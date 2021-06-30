@@ -1,0 +1,29 @@
+.hero .nav button {
+    border: solid .2rem c(primary);
+    background: transparent;
+    border-radius: .5rem;
+    padding: 0 2rem;
+}
+
+.book {
+    margin-top: 2rem;
+    display: block;
+    width: 100%;
+    background: c(primary);
+    border-radius: .5rem;
+}
+
+.hero .book {
+    padding: .5rem 2rem;
+}
+
+.details .book {
+    padding: 1rem 2rem;
+}
+
+.arrow {
+    height: 2rem;
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+}

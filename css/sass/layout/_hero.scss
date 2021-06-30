@@ -1,0 +1,53 @@
+.hero {
+    background-image: url("../../../assets/img/Group 519.png");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -6rem;
+        position: relative;
+        margin-bottom: 3rem;
+
+        @include medium {
+            justify-content: space-between;
+            padding: 0 5rem;
+        }
+
+        img {
+            transform: scale(.5);
+        }
+
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            right: -3rem;
+            bottom: -3rem;
+            transform: scale(.8);
+
+            li {
+                cursor: pointer;
+            }
+        }
+    }
+
+    h1,
+    p {
+        width: 60%;
+        place-self: center;
+    }
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 3rem;
+    }
+}
